@@ -9,14 +9,11 @@ class DoctorViewSet(viewsets.ModelViewSet):
     queryset = Doctor.objects.all().order_by('name')
     serializer_class = DoctorSerializer
 
-    
+
     """
     def get(self, request):
         doctoring = Doctor.objects.all()
         serializer = DoctorSerializer(doctoring, many=True)
-
         return Response(serializer.data)
 
-    def post(self, request):
-        pass
 """
