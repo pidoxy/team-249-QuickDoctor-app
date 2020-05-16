@@ -6,6 +6,7 @@ class Doctor(models.Model):
     email = models.EmailField()  
     contact = models.CharField(max_length=20 )  
     address = models.CharField(max_length=100)
+    area = models.CharField(max_length=100, default= "Lagos")
     class Meta:  
         db_table = "doctor"  
 
@@ -14,7 +15,29 @@ class Doctor(models.Model):
         return self.name
 
     
-        """
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+"""
 
 class Patient(models.Model):    
     name = models.CharField(max_length=100) 
@@ -23,4 +46,4 @@ class Patient(models.Model):
     doctors = models.ManyToManyField(Doctor)
     class Meta:  
         db_table = "doctor"  
-        """
+"""
