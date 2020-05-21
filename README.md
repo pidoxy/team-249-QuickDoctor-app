@@ -1,0 +1,2 @@
+# team-249-QuickDoctor-app
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6fe51a50ce6b40cb8bb1b9dae6ae8897)](https://app.codacy.com/gh/BuildForSDG/team-249-QuickDoctor-app?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/team-249-QuickDoctor-app&utm_campaign=Badge_Grade_Settings)
