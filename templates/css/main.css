@@ -75,6 +75,8 @@ letter-spacing: 0.18em;
   .first-section{
     background-repeat: no-repeat;
     width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;;
    
   }
   .first-section>section{
@@ -167,8 +169,6 @@ background: #FFFFFF;
       
 width: 20vw;
 height: 46px;
-background: #DF678C;
-
 
 font-family: Nunito;
     font-style: italic;
@@ -357,7 +357,7 @@ font-family: Nunito;
 font-style: italic;
 font-weight: normal;
 font-size: 44px;
-display: flex;
+/* display: flex; */
 text-align: center;
 letter-spacing: 0.18em;
 
@@ -383,11 +383,12 @@ color: #FFFFFF;
   .sub{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 130px !important;
  
   }
   .sub>img{
     height: 50px;
-    margin-top: -100px;
+    
   }
   .fifth-section{
     display: grid;
